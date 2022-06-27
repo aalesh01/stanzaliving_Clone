@@ -1,0 +1,25 @@
+.cityCards{
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    text-align: center;
+}
+.cityLogo{
+        width: 75px;
+        height: 75px;
+}
+.bedDiv{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.bedDiv>div>img{
+    width:107%
+}
+.roomFeatureIcons{
+    display: flex;
+    text-align: center;
+}
+.roomFeatureIcons>div>img{
+    width: 75px;
+    height: 75px;
+}
+
