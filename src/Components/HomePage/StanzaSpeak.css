@@ -1,0 +1,41 @@
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.slick-arrow.slick-prev,
+    
+.slick-arrow.slick-next{
+    background-color:gray;
+    color: black;
+    /* font-size: 50px; */
+}
+.slider{
+    width: 100%;
+    /* height: 800px; */
+    /* border:1px solid  green ; */
+}
+.img{
+    width: 100%;
+    /* height: 150px; */
+    object-fit: cover;
+    
+}
+.heading{
+    font-size: 48px;
+    color: black;
+    font-family:Font-Bold;
+    margin-bottom: 20px;
+
+
+}
+.custom-indicator {
+    color: darkblue;
+}
+  
+
+
+.top{
+    margin:45px;
+    
+}
