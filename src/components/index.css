@@ -1,0 +1,42 @@
+*{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#container{
+    display: flex;
+}
+#container>#left{
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 8%;
+    font-size: large;
+}
+ #number{
+    display: flex;
+    gap: 10%;
+}
+input{
+    height: 40px;
+    width: 100%;
+}
+#container>#right>img{
+    margin-top: 10%;
+    height: 80%;
+}
+#container-two{
+    margin-left: 5%;
+    margin-right: 10%;
+}
+#container-two>#box{
+    display: flex;
+    gap: 5%;
+}
+.four>img{
+    width: 60%;
+}
+
+
+a{
+    text-decoration: none;
+    color: teal;
+}
+
