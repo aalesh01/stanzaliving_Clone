@@ -23,3 +23,14 @@
     height: 75px;
 }
 
+.cityCards>div:hover{
+        content: "";
+        width: 90px;
+        height: 90px;
+        background-color: rgb(173, 224, 215);
+        position: absolute;
+        border-radius: 50%;
+        z-index: 5;
+        animation: 0.5s ease 0s 1 normal forwards running bubble;
+        transform: scale(0, 0);
+    }
