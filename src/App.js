@@ -1,12 +1,19 @@
-import './App.css';
 import Homepage from './components/homepage/homepage';
-import WaBt from './components/waBT/waBT';
+// import WaBt from './components/waBT/waBT';
+
+import  { Navbar } from "./components/Navbar/Navbar"
+
+
+  
+import './App.css';
+
 
 function App() {
   return (
     <div className="App">
+        <Navbar/>
      <Homepage/>
-     <WaBt/>
+     {/* <WaBt/> */}
     </div>
   );
 }
