@@ -2,6 +2,7 @@ import React from "react";
 import "./navbar.css"
 import { v4 as uuid } from "uuid"
 import logo from "./Stanzalogo.png"
+import { Link } from "react-router-dom";
 // import SelectSearch from 'react-select-search';
 import {
     Drawer,
@@ -16,7 +17,6 @@ import {
     useDisclosure ,
     InputGroup,
     InputLeftAddon,
-    PhoneIcon,
     RadioGroup,Stack,
     Radio,Select
 
@@ -35,10 +35,10 @@ export const Navbar = () => {
                 <img src={logo} alt="alt" srcset="" />
                 </div>
                 <div className="navbar_details">
-                <a href="">About Us</a>
-                <a href="">Our PACT</a>
-                <a href="">partner With Us</a>
-                <a href="">Explore Residences</a>
+                <Link to="/">About Us</Link>
+                <Link to="/">Our PACT</Link>
+                <Link to="/">partner With Us</Link>
+                <Link to="/">Explore Residences</Link>
                 </div>
                 <div>
                     <button ref={btnRef} colorScheme='teal' onClick={onOpen}className="navbar_callback">REQUEST CALLBACK</button>

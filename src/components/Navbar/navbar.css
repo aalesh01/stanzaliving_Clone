@@ -9,10 +9,10 @@
     display: flex;
     flex-direction: row;
  /* border: 1px solid gold; */
- width: 50%;
+    /* width: 50%; */
     align-items: center;
     justify-content: center;
-    margin-left: 60px;
+    /* margin-left: 60px; */
     
 }
 .navbar_details a{
