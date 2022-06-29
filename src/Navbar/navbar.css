@@ -42,7 +42,7 @@
     margin: auto;
     background-color:rgb(94, 187, 160);  ;
 }
-.navbar_username{
+.navbar_username,.navbar_city{
     /* border: 1px solid green; */
 display: flex;
 align-items: center;
@@ -56,6 +56,19 @@ padding: 5px;
 border-radius: 5px;
 gap: 50px;
 }
-.navbar_mobilenumber{
+.navbar_mobilenumber,.navbar_profession,.navbar_email{
     margin-top: 20px;
+}
+.navbar_profession_RadioGroup{
+    margin-top: 20px;
+}
+.navbar_city Select{
+  
+padding: 5px;
+border-radius: 5px;
+gap: 30px;
+width: 95%;
+}
+option{
+    color: red;
 }
