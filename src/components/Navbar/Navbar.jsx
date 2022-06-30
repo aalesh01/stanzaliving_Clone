@@ -2,13 +2,10 @@ import React from "react";
 import "./navbar.css"
 import { v4 as uuid } from "uuid"
 import logo from "./Stanzalogo.png"
-<<<<<<< HEAD
 import roboto from "./roboto.png"
 // import SelectSearch from 'react-select-search';
-=======
 import { Link } from "react-router-dom";
 
->>>>>>> 8d174db3a2d32ee2faae387f45cf697f605e9f01
 import {
     Drawer,
     DrawerBody,
@@ -27,24 +24,12 @@ import {
     // ArrowForwardIcon
 
   } from '@chakra-ui/react'
-<<<<<<< HEAD
-import {Link }from "react-router-dom"
 
-=======
-import { ChakraProvider } from "@chakra-ui/provider";
->>>>>>> 8d174db3a2d32ee2faae387f45cf697f605e9f01
 export const Navbar = () => {
     const { isOpen, onOpen, onClose } = useDisclosure()
    
     const btnRef = React.useRef()
     
-  
-
-<<<<<<< HEAD
-    
-
-=======
->>>>>>> 8d174db3a2d32ee2faae387f45cf697f605e9f01
     return (
 
         <div className="navbar_container">
@@ -52,17 +37,10 @@ export const Navbar = () => {
                 <img src={logo} alt="alt" />
                 </div>
                 <div className="navbar_details">
-<<<<<<< HEAD
-                <a href="/">About Us</a>
-                <a href="/">Our PACT</a>
-                <a href="/">partner With Us</a>
-                <a href="/">Explore Residences</a>
-=======
                 <Link to="/">About Us</Link>
                 <Link to="/">Our PACT</Link>
                 <Link to="/">partner With Us</Link>
                 <Link to="/">Explore Residences</Link>
->>>>>>> 8d174db3a2d32ee2faae387f45cf697f605e9f01
                 </div>
                 <div>
                     <Button ref={btnRef} colorScheme='teal' onClick={onOpen}className="navbar_callback">REQUEST CALLBACK</Button>
@@ -194,7 +172,7 @@ export const Navbar = () => {
               Cancel
             </Button>  */}
             {/* <Button  colorScheme='teal' mr={0}   onClick={handlechange} >Connnect</Button> */}
-            <Link className="connect" to="#">Connect -></Link>
+            <Link className="connect" to="#">{"Connect ->"} </Link>
         
           </DrawerFooter>
         </DrawerContent>
@@ -205,8 +183,5 @@ export const Navbar = () => {
         </div>
     )
 }
-<<<<<<< HEAD
-=======
 
 export default Navbar;
->>>>>>> 8d174db3a2d32ee2faae387f45cf697f605e9f01

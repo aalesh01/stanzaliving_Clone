@@ -4,8 +4,9 @@
     border-bottom: 1px solid grey;
     align-items: center;
     /* justify-content: space-around; */
-    padding: 10px;
     position: fixed;
+    width:80%;
+    margin:auto;
     background-color: white;
 }
 .navbar_details{
