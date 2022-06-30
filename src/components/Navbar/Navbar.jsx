@@ -3,7 +3,7 @@ import "./navbar.css"
 import { v4 as uuid } from "uuid"
 import logo from "./Stanzalogo.png"
 import { Link } from "react-router-dom";
-// import SelectSearch from 'react-select-search';
+
 import {
     Drawer,
     DrawerBody,
@@ -21,18 +21,17 @@ import {
     Radio,Select
 
   } from '@chakra-ui/react'
+import { ChakraProvider } from "@chakra-ui/provider";
 export const Navbar = () => {
     const { isOpen, onOpen, onClose } = useDisclosure()
     const btnRef = React.useRef()
   
 
-
-
     return (
 
         <div className="navbar_container">
                 <div key={uuid}>
-                <img src={logo} alt="alt" srcset="" />
+                <img src={logo} alt="alt" />
                 </div>
                 <div className="navbar_details">
                 <Link to="/">About Us</Link>
@@ -41,7 +40,7 @@ export const Navbar = () => {
                 <Link to="/">Explore Residences</Link>
                 </div>
                 <div>
-                    <button ref={btnRef} colorScheme='teal' onClick={onOpen}className="navbar_callback">REQUEST CALLBACK</button>
+                    <Button ref={btnRef} colorScheme='teal' onClick={onOpen}className="navbar_callback">REQUEST CALLBACK</Button>
 <div >
                     <Drawer
         isOpen={isOpen}
@@ -160,3 +159,5 @@ export const Navbar = () => {
         </div>
     )
 }
+
+export default Navbar;
