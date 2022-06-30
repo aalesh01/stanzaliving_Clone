@@ -100,5 +100,70 @@
             "title":"KOTA",
             "image":"/allCities/kota.webp"
         }
+    ],
+    "rooms":[
+        {
+            "title":"Lisbon House",
+            "location":"Electronic City Phase 1",
+            "image":"https://www.stanzaliving.com/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fstanza-living%2Fimage%2Fupload%2Ff_auto%2Cq_auto%2Cw_500%2Fv1584015222%2FWebsite%2FCMS-Uploads%2Fy19psopwedii5fn8azni.jpg&w=1920&q=75",
+            "price":"10,199",
+            "gender":"Unisex"
+        },
+        {
+            "title":"Amsterdam House",
+            "location":"Electronic City Phase 1",
+            "image":"https://www.stanzaliving.com/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fstanza-living%2Fimage%2Fupload%2Ff_auto%2Cq_auto%2Cw_500%2Ff_auto%2Cq_auto%2Fv1638170212%2FWebsite%2FCMS-Uploads%2Fwpdj3anjlocvh2br3ejy.jpg&w=1920&q=75",
+            "price":"11,699",
+            "gender":"Unisex"
+        },
+        {
+            "title":"Lisbon House",
+            "location":"Electronic City Phase 1",
+            "image":"https://www.stanzaliving.com/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fstanza-living%2Fimage%2Fupload%2Ff_auto%2Cq_auto%2Cw_500%2Fv1585230219%2FWebsite%2FCMS-Uploads%2Fgg2kktgdcehsmf1rxoei.jpg&w=1920&q=75",
+            "price":"17,399",
+            "gender":"Female"
+        },
+        {
+            "title":"Yokohama House",
+            "location":"Reva University",
+            "image":"https://www.stanzaliving.com/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fstanza-living%2Fimage%2Fupload%2Ff_auto%2Cq_auto%2Cw_500%2Fv1580376494%2FWebsite%2FCMS-Uploads%2Ff2kfnx5pphzkqqy3ssdp.jpg&w=1920&q=75",
+            "price":"8,799",
+            "gender":"Female"
+        },
+        {
+            "title":"Denver House",
+            "location":"Bannerghatta Road",
+            "image":"https://www.stanzaliving.com/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fstanza-living%2Fimage%2Fupload%2Ff_auto%2Cq_auto%2Cw_500%2Fv1585230810%2FWebsite%2FCMS-Uploads%2Fnt8gt3pp82jk6aaxrhzv.jpg&w=1920&q=75",
+            "price":"14,799",
+            "gender":"Male"
+        },
+        {
+            "title":"Swansea House",
+            "location":"Electronic City Phase 2",
+            "image":"https://www.stanzaliving.com/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fstanza-living%2Fimage%2Fupload%2Ff_auto%2Cq_auto%2Cw_500%2Fv1583246944%2FWebsite%2FCMS-Uploads%2Favecasizfb0bfr5hf3yc.jpg&w=1920&q=75",
+            "price":"7,399",
+            "gender":"Unisex"
+        },
+        {
+            "title":"Sofia House",
+            "location":"Sarjapur Road",
+            "image":"https://www.stanzaliving.com/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fstanza-living%2Fimage%2Fupload%2Ff_auto%2Cq_auto%2Cw_500%2Fv1585228698%2FWebsite%2FCMS-Uploads%2Fgof3wogd6smiivqoaumt.jpg&w=1920&q=75",
+            "price":"6,899",
+            "gender":"Unisex"
+        },
+        {
+            "title":"Turin House",
+            "location":"Electronic City Phase 1",
+            "image":"https://www.stanzaliving.com/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fstanza-living%2Fimage%2Fupload%2Ff_auto%2Cq_auto%2Cw_500%2Fv1599479570%2FWebsite%2FCMS-Uploads%2Flhcr16gvkj6s3goqlgde.jpg&w=1920&q=75",
+            "price":"10,199",
+            "gender":"Unisex"
+        },
+        {
+            "title":"Dresden House",
+            "location":"Koramangala",
+            "image":"https://www.stanzaliving.com/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fstanza-living%2Fimage%2Fupload%2Ff_auto%2Cq_auto%2Cw_500%2Fv1585930726%2FWebsite%2FCMS-Uploads%2Fyva4kf1zi84wshbcfkqc.jpg&w=1920&q=75",
+            "price":"14,199",
+            "gender":"Male"
+        }
     ]
 }

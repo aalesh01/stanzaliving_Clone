@@ -2,6 +2,7 @@ import React from "react";
 import "./navbar.css"
 import { v4 as uuid } from "uuid"
 import logo from "./Stanzalogo.png"
+import roboto from "./roboto.png"
 // import SelectSearch from 'react-select-search';
 import {
     Drawer,
@@ -18,15 +19,20 @@ import {
     InputLeftAddon,
     PhoneIcon,
     RadioGroup,Stack,
-    Radio,Select
+    Radio,Select,
+    // ArrowForwardIcon
 
   } from '@chakra-ui/react'
+import {Link }from "react-router-dom"
+
 export const Navbar = () => {
     const { isOpen, onOpen, onClose } = useDisclosure()
+   
     const btnRef = React.useRef()
+    
   
 
-
+    
 
     return (
 
@@ -35,10 +41,10 @@ export const Navbar = () => {
                 <img src={logo} alt="alt" srcset="" />
                 </div>
                 <div className="navbar_details">
-                <a href="">About Us</a>
-                <a href="">Our PACT</a>
-                <a href="">partner With Us</a>
-                <a href="">Explore Residences</a>
+                <a href="/">About Us</a>
+                <a href="/">Our PACT</a>
+                <a href="/">partner With Us</a>
+                <a href="/">Explore Residences</a>
                 </div>
                 <div>
                     <button ref={btnRef} colorScheme='teal' onClick={onOpen}className="navbar_callback">REQUEST CALLBACK</button>
@@ -89,7 +95,7 @@ export const Navbar = () => {
             <Input placeholder='Email' size='lg' />
             </div>
             <div className="navbar_city">
-            <Select placeholder='Select a city' size="lg">
+            <Select placeholder='Select a city' size="lg" focusBorderColor="gray">
 
   <option value='Ahmedabad'>Ahmedabad</option>
   <option value='Belgum'>Belgum</option>
@@ -117,8 +123,8 @@ export const Navbar = () => {
   <option value='Vijayawada'>Vijayawada</option>
   <option value='Visakhapatnam'>Visakhapatnam</option>
 </Select>
-<Select placeholder='Select a locality' size="lg">
-  <option value='Bannerghatta'>Bannerghatta</option>
+<Select placeholder='Select a locality' size="lg" focusBorderColor="gray"  _>
+  <option value='Bannerghatta' >Bannerghatta</option>
   <option value='Bellandur'>Bellandur</option>
   <option value='BTM Layout'>BTM Layout</option>
   <option value='Domlur'>Domlur</option>
@@ -144,17 +150,38 @@ export const Navbar = () => {
 </Select>
             
             </div>
+            <div className="navbar_duratation">
+            <Select placeholder='Duratation'  size="lg" borderColor='gray' focusBorderColor="gray">
+          
+  <option value='Less then 3 months'>Less then 3 months</option>
+  <option value='3-6 months'>3-6 months</option>
+  <option value='More then 6 months'>More then 6 months</option>
+</Select>
+            </div>
+            <div className="navbar_robot"  >
+            <div className="robot_check">
+                <div className="robot_id" onclick="rightSymbol()">
+                <input type="checkbox" name="" className="roboto_checked" /></div>
+                <label for="snd">I`m not a robot</label>
+            </div>
+            <div className="roboto_image">
+                <img src={roboto} alt=""/>
+            </div>
+        </div>
 
           </DrawerBody>
 
           <DrawerFooter>
-            <Button variant='outline' mr={3} onClick={onClose}>
+            {/* <Button variant='outline' mr={3} onClick={onClose}>
               Cancel
-            </Button>
-            <Button colorScheme='blue'>Save</Button>
+            </Button>  */}
+            {/* <Button  colorScheme='teal' mr={0}   onClick={handlechange} >Connnect</Button> */}
+            <Link className="connect" to="#">Connect -></Link>
+        
           </DrawerFooter>
         </DrawerContent>
       </Drawer>
+
       </div>
                 </div>
         </div>
