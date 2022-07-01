@@ -321,6 +321,9 @@ const Homepage = () => {
           </div>
         </div>
       </div>
+      <div className="foot">
+        <img src="/foot.png" alt="" />
+      </div>
     </div>
   );
 };

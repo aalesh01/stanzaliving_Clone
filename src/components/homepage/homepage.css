@@ -88,3 +88,7 @@
             text-decoration: none;
             color: teal;
         }
+
+        .foot>img{
+            width: 100%;
+        }

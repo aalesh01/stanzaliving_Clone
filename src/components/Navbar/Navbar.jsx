@@ -39,7 +39,7 @@ export const Navbar = () => {
                 <div className="navbar_details">
                 <Link to="/">About Us</Link>
                 <Link to="/">Our PACT</Link>
-                <Link to="/">partner With Us</Link>
+                <Link to="/">Partner With Us</Link>
                 <Link to="/">Explore Residences</Link>
                 </div>
                 <div>
