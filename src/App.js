@@ -1,12 +1,16 @@
 import './App.css';
-import { ChakraProvider } from '@chakra-ui/react';
-import StanzaSpeak from './Components/HomePage/StanzaSpeak';
+import React from 'react';
+import Homepage from './Components/HomePage/homepage';
+import WaBt from './Components/waBT/waBT';
+import Navbar from './Components/Navbar/Navbar';
 
 function App() {
   return (
-    <ChakraProvider >
-     <StanzaSpeak/>
-    </ChakraProvider>
+    <div className='App'>
+      <Navbar />
+      <Homepage />
+      <WaBt />
+    </div>
   );
 }
 
