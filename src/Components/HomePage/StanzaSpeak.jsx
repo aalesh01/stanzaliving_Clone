@@ -20,7 +20,7 @@ const StanzaSpeak=()=>{
         
         {data.map((item)=>(
 
-            <div className='slider'>
+            <div key={item} className='slider'>
                 <img src={item} alt="loading " className='img'/>
             </div>
         ))}

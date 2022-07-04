@@ -1,0 +1,14 @@
+.container{
+    padding-top: 15%;
+    display: grid;
+    gap:5%;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.pCard{
+    display: flex;
+    gap:5%
+}
+.pCard>div>img{
+    width: 100%;
+}

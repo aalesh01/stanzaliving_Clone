@@ -8,7 +8,7 @@ const Homepage = () => {
 
   React.useEffect(() => {
     const getData = async () => {
-      await fetch(`http://localhost:3000/allCities`)
+      await fetch(`http://localhost:8080/allCities`)
         .then((res) => res.json())
         .then((res) => {
           setCities(res);
@@ -154,7 +154,7 @@ const Homepage = () => {
         </p>
         <div className="cityCards">
           {cities.map((ele) => (
-            <div key={ele.id}>
+            <div>
               <img className="cityLogo" src={ele.image} alt="" />
               <p>{ele.title}</p>
               <img src="" alt="" />
@@ -322,7 +322,7 @@ const Homepage = () => {
           </div>
         </div>
       </div>
-      <StanzaSpeak/>
+      <StanzaSpeak />
       <div className="foot">
         <img src="/foot.png" alt="" />
       </div>

@@ -81,7 +81,7 @@ option:hover{
     margin-top: 20px;
 }
 .navbar_robot{
-    border: 1px solid rgb(235, 86, 86);
+    /* border: 1px solid rgb(235, 86, 86); */
     display: flex;
     margin-top: 20px;
     align-items: center;
